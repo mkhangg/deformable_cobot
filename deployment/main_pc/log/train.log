@@ -1,0 +1,294 @@
+2023-04-24 22:08:53,666 [INFO] {'dataset': 'dobject', 'root': '/mnt/data/workspace/open3d/code/resample_dataset', 'cache': 'cache', 'log_dir': 'log', 'checkpoint': 'checkpoint', 'epochs': 200, 'is_cached': True, 'use_gpu': True, 'batch_size': 256, 'num_categories': 8, 'num_features': 80, 'npoints': 100, 'is_sampled': True, 'use_normal_vector': False, 'optimizer': 'adam', 'learning_rate': 0.001, 'decay_rate': 0.0001, 'verbose': False, 'num_votes': 3}
+2023-04-24 22:08:53,751 [INFO] Start training...
+2023-04-24 22:08:54,157 [INFO]  Epoch = 1/200, loss = 2.2860, train_acc : 0.1103, eval_acc : 0.1103 = 468/4242. Best: 0.0000
+2023-04-24 22:08:54,157 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:54,408 [INFO]  Epoch = 2/200, loss = 2.2068, train_acc : 0.1103, eval_acc : 0.1103 = 468/4242. Best: 0.1103
+2023-04-24 22:08:54,408 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:54,661 [INFO]  Epoch = 3/200, loss = 2.1589, train_acc : 0.1103, eval_acc : 0.1103 = 468/4242. Best: 0.1103
+2023-04-24 22:08:54,661 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:54,912 [INFO]  Epoch = 4/200, loss = 2.1401, train_acc : 0.1103, eval_acc : 0.1773 = 752/4242. Best: 0.1103
+2023-04-24 22:08:54,913 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:55,167 [INFO]  Epoch = 5/200, loss = 2.1249, train_acc : 0.0842, eval_acc : 0.1414 = 600/4242. Best: 0.1773
+2023-04-24 22:08:55,419 [INFO]  Epoch = 6/200, loss = 2.1162, train_acc : 0.0000, eval_acc : 0.1414 = 600/4242. Best: 0.1773
+2023-04-24 22:08:55,670 [INFO]  Epoch = 7/200, loss = 2.1034, train_acc : 0.0000, eval_acc : 0.1414 = 600/4242. Best: 0.1773
+2023-04-24 22:08:55,920 [INFO]  Epoch = 8/200, loss = 2.0805, train_acc : 0.0459, eval_acc : 0.1414 = 600/4242. Best: 0.1773
+2023-04-24 22:08:56,170 [INFO]  Epoch = 9/200, loss = 2.0500, train_acc : 0.0200, eval_acc : 0.1414 = 600/4242. Best: 0.1773
+2023-04-24 22:08:56,433 [INFO]  Epoch = 10/200, loss = 2.0357, train_acc : 0.0301, eval_acc : 0.1603 = 680/4242. Best: 0.1773
+2023-04-24 22:08:56,690 [INFO]  Epoch = 11/200, loss = 1.9993, train_acc : 0.1008, eval_acc : 0.2751 = 1167/4242. Best: 0.1773
+2023-04-24 22:08:56,690 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:56,949 [INFO]  Epoch = 12/200, loss = 1.9199, train_acc : 0.2722, eval_acc : 0.1337 = 567/4242. Best: 0.2751
+2023-04-24 22:08:57,199 [INFO]  Epoch = 13/200, loss = 1.9848, train_acc : 0.0653, eval_acc : 0.2992 = 1269/4242. Best: 0.2751
+2023-04-24 22:08:57,199 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:57,453 [INFO]  Epoch = 14/200, loss = 1.8492, train_acc : 0.1480, eval_acc : 0.2473 = 1049/4242. Best: 0.2992
+2023-04-24 22:08:57,701 [INFO]  Epoch = 15/200, loss = 1.9249, train_acc : 0.0803, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:57,952 [INFO]  Epoch = 16/200, loss = 1.7388, train_acc : 0.1459, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:58,203 [INFO]  Epoch = 17/200, loss = 1.3050, train_acc : 0.2752, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:58,449 [INFO]  Epoch = 18/200, loss = 1.0562, train_acc : 0.2752, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:58,699 [INFO]  Epoch = 19/200, loss = 0.9623, train_acc : 0.2752, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:58,960 [INFO]  Epoch = 20/200, loss = 0.9866, train_acc : 0.2638, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:59,208 [INFO]  Epoch = 21/200, loss = 1.0199, train_acc : 0.2752, eval_acc : 0.2751 = 1167/4242. Best: 0.2992
+2023-04-24 22:08:59,463 [INFO]  Epoch = 22/200, loss = 1.0832, train_acc : 0.1717, eval_acc : 0.3461 = 1468/4242. Best: 0.2992
+2023-04-24 22:08:59,463 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:08:59,715 [INFO]  Epoch = 23/200, loss = 0.9746, train_acc : 0.2989, eval_acc : 0.2751 = 1167/4242. Best: 0.3461
+2023-04-24 22:08:59,967 [INFO]  Epoch = 24/200, loss = 1.0642, train_acc : 0.2743, eval_acc : 0.4781 = 2028/4242. Best: 0.3461
+2023-04-24 22:08:59,968 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:00,218 [INFO]  Epoch = 25/200, loss = 1.0273, train_acc : 0.3852, eval_acc : 0.2749 = 1166/4242. Best: 0.4781
+2023-04-24 22:09:00,467 [INFO]  Epoch = 26/200, loss = 1.0466, train_acc : 0.2527, eval_acc : 0.3916 = 1661/4242. Best: 0.4781
+2023-04-24 22:09:00,719 [INFO]  Epoch = 27/200, loss = 1.0551, train_acc : 0.3263, eval_acc : 0.5273 = 2237/4242. Best: 0.4781
+2023-04-24 22:09:00,719 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:00,971 [INFO]  Epoch = 28/200, loss = 1.0295, train_acc : 0.4151, eval_acc : 0.3661 = 1553/4242. Best: 0.5273
+2023-04-24 22:09:01,222 [INFO]  Epoch = 29/200, loss = 1.0386, train_acc : 0.3476, eval_acc : 0.4029 = 1709/4242. Best: 0.5273
+2023-04-24 22:09:01,481 [INFO]  Epoch = 30/200, loss = 1.0604, train_acc : 0.2853, eval_acc : 0.5014 = 2127/4242. Best: 0.5273
+2023-04-24 22:09:01,737 [INFO]  Epoch = 31/200, loss = 1.0485, train_acc : 0.3446, eval_acc : 0.5172 = 2194/4242. Best: 0.5273
+2023-04-24 22:09:01,992 [INFO]  Epoch = 32/200, loss = 1.0401, train_acc : 0.3500, eval_acc : 0.5165 = 2191/4242. Best: 0.5273
+2023-04-24 22:09:02,246 [INFO]  Epoch = 33/200, loss = 1.0470, train_acc : 0.3369, eval_acc : 0.4943 = 2097/4242. Best: 0.5273
+2023-04-24 22:09:02,509 [INFO]  Epoch = 34/200, loss = 1.0456, train_acc : 0.3496, eval_acc : 0.5236 = 2221/4242. Best: 0.5273
+2023-04-24 22:09:02,763 [INFO]  Epoch = 35/200, loss = 1.0293, train_acc : 0.3230, eval_acc : 0.5460 = 2316/4242. Best: 0.5273
+2023-04-24 22:09:02,764 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:03,016 [INFO]  Epoch = 36/200, loss = 1.0732, train_acc : 0.2847, eval_acc : 0.6148 = 2608/4242. Best: 0.5460
+2023-04-24 22:09:03,016 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:03,266 [INFO]  Epoch = 37/200, loss = 1.0675, train_acc : 0.2687, eval_acc : 0.5938 = 2519/4242. Best: 0.6148
+2023-04-24 22:09:03,515 [INFO]  Epoch = 38/200, loss = 1.0683, train_acc : 0.3053, eval_acc : 0.6035 = 2560/4242. Best: 0.6148
+2023-04-24 22:09:03,775 [INFO]  Epoch = 39/200, loss = 1.0398, train_acc : 0.3772, eval_acc : 0.5469 = 2320/4242. Best: 0.6148
+2023-04-24 22:09:04,025 [INFO]  Epoch = 40/200, loss = 1.0253, train_acc : 0.4116, eval_acc : 0.5457 = 2315/4242. Best: 0.6148
+2023-04-24 22:09:04,273 [INFO]  Epoch = 41/200, loss = 0.9691, train_acc : 0.5083, eval_acc : 0.4802 = 2037/4242. Best: 0.6148
+2023-04-24 22:09:04,519 [INFO]  Epoch = 42/200, loss = 0.9605, train_acc : 0.4916, eval_acc : 0.4458 = 1891/4242. Best: 0.6148
+2023-04-24 22:09:04,767 [INFO]  Epoch = 43/200, loss = 0.9442, train_acc : 0.4770, eval_acc : 0.4554 = 1932/4242. Best: 0.6148
+2023-04-24 22:09:05,018 [INFO]  Epoch = 44/200, loss = 0.9494, train_acc : 0.4789, eval_acc : 0.5066 = 2149/4242. Best: 0.6148
+2023-04-24 22:09:05,265 [INFO]  Epoch = 45/200, loss = 0.9563, train_acc : 0.5005, eval_acc : 0.6282 = 2665/4242. Best: 0.6148
+2023-04-24 22:09:05,265 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:05,514 [INFO]  Epoch = 46/200, loss = 0.9415, train_acc : 0.5530, eval_acc : 0.6528 = 2769/4242. Best: 0.6282
+2023-04-24 22:09:05,515 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:05,771 [INFO]  Epoch = 47/200, loss = 1.0180, train_acc : 0.5862, eval_acc : 0.4901 = 2079/4242. Best: 0.6528
+2023-04-24 22:09:06,038 [INFO]  Epoch = 48/200, loss = 1.0370, train_acc : 0.5002, eval_acc : 0.3274 = 1389/4242. Best: 0.6528
+2023-04-24 22:09:06,296 [INFO]  Epoch = 49/200, loss = 1.0593, train_acc : 0.3302, eval_acc : 0.3324 = 1410/4242. Best: 0.6528
+2023-04-24 22:09:06,551 [INFO]  Epoch = 50/200, loss = 1.0379, train_acc : 0.3969, eval_acc : 0.6702 = 2843/4242. Best: 0.6528
+2023-04-24 22:09:06,551 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:06,806 [INFO]  Epoch = 51/200, loss = 0.9827, train_acc : 0.5527, eval_acc : 0.4658 = 1976/4242. Best: 0.6702
+2023-04-24 22:09:07,085 [INFO]  Epoch = 52/200, loss = 0.9543, train_acc : 0.4464, eval_acc : 0.3359 = 1425/4242. Best: 0.6702
+2023-04-24 22:09:07,333 [INFO]  Epoch = 53/200, loss = 0.9398, train_acc : 0.3743, eval_acc : 0.3866 = 1640/4242. Best: 0.6702
+2023-04-24 22:09:07,582 [INFO]  Epoch = 54/200, loss = 0.9361, train_acc : 0.3845, eval_acc : 0.5066 = 2149/4242. Best: 0.6702
+2023-04-24 22:09:07,829 [INFO]  Epoch = 55/200, loss = 0.9424, train_acc : 0.4864, eval_acc : 0.6561 = 2783/4242. Best: 0.6702
+2023-04-24 22:09:08,077 [INFO]  Epoch = 56/200, loss = 0.9598, train_acc : 0.6101, eval_acc : 0.6405 = 2717/4242. Best: 0.6702
+2023-04-24 22:09:08,326 [INFO]  Epoch = 57/200, loss = 0.9937, train_acc : 0.5917, eval_acc : 0.6188 = 2625/4242. Best: 0.6702
+2023-04-24 22:09:08,575 [INFO]  Epoch = 58/200, loss = 1.0020, train_acc : 0.5523, eval_acc : 0.5490 = 2329/4242. Best: 0.6702
+2023-04-24 22:09:08,824 [INFO]  Epoch = 59/200, loss = 0.9955, train_acc : 0.5607, eval_acc : 0.5794 = 2458/4242. Best: 0.6702
+2023-04-24 22:09:09,071 [INFO]  Epoch = 60/200, loss = 0.9846, train_acc : 0.5779, eval_acc : 0.7666 = 3252/4242. Best: 0.6702
+2023-04-24 22:09:09,071 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:09,324 [INFO]  Epoch = 61/200, loss = 0.9015, train_acc : 0.7110, eval_acc : 0.5778 = 2451/4242. Best: 0.7666
+2023-04-24 22:09:09,571 [INFO]  Epoch = 62/200, loss = 0.8936, train_acc : 0.5328, eval_acc : 0.5997 = 2544/4242. Best: 0.7666
+2023-04-24 22:09:09,819 [INFO]  Epoch = 63/200, loss = 0.8934, train_acc : 0.5507, eval_acc : 0.6466 = 2743/4242. Best: 0.7666
+2023-04-24 22:09:10,068 [INFO]  Epoch = 64/200, loss = 0.8948, train_acc : 0.5920, eval_acc : 0.6655 = 2823/4242. Best: 0.7666
+2023-04-24 22:09:10,314 [INFO]  Epoch = 65/200, loss = 0.8987, train_acc : 0.6104, eval_acc : 0.6874 = 2916/4242. Best: 0.7666
+2023-04-24 22:09:10,561 [INFO]  Epoch = 66/200, loss = 0.9025, train_acc : 0.6222, eval_acc : 0.7037 = 2985/4242. Best: 0.7666
+2023-04-24 22:09:10,807 [INFO]  Epoch = 67/200, loss = 0.8951, train_acc : 0.6314, eval_acc : 0.7152 = 3034/4242. Best: 0.7666
+2023-04-24 22:09:11,053 [INFO]  Epoch = 68/200, loss = 0.9016, train_acc : 0.6391, eval_acc : 0.7334 = 3111/4242. Best: 0.7666
+2023-04-24 22:09:11,317 [INFO]  Epoch = 69/200, loss = 0.8934, train_acc : 0.6457, eval_acc : 0.7416 = 3146/4242. Best: 0.7666
+2023-04-24 22:09:11,564 [INFO]  Epoch = 70/200, loss = 0.9025, train_acc : 0.6514, eval_acc : 0.7617 = 3231/4242. Best: 0.7666
+2023-04-24 22:09:11,815 [INFO]  Epoch = 71/200, loss = 0.8909, train_acc : 0.6588, eval_acc : 0.7699 = 3266/4242. Best: 0.7666
+2023-04-24 22:09:11,815 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:12,069 [INFO]  Epoch = 72/200, loss = 0.8991, train_acc : 0.6639, eval_acc : 0.7848 = 3329/4242. Best: 0.7699
+2023-04-24 22:09:12,069 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:12,320 [INFO]  Epoch = 73/200, loss = 0.8887, train_acc : 0.6727, eval_acc : 0.7916 = 3358/4242. Best: 0.7848
+2023-04-24 22:09:12,320 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:12,571 [INFO]  Epoch = 74/200, loss = 0.8971, train_acc : 0.6768, eval_acc : 0.8081 = 3428/4242. Best: 0.7916
+2023-04-24 22:09:12,571 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:12,826 [INFO]  Epoch = 75/200, loss = 0.8865, train_acc : 0.6826, eval_acc : 0.8100 = 3436/4242. Best: 0.8081
+2023-04-24 22:09:12,826 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:13,078 [INFO]  Epoch = 76/200, loss = 0.8942, train_acc : 0.6869, eval_acc : 0.8246 = 3498/4242. Best: 0.8100
+2023-04-24 22:09:13,078 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:13,330 [INFO]  Epoch = 77/200, loss = 0.8842, train_acc : 0.6924, eval_acc : 0.8277 = 3511/4242. Best: 0.8246
+2023-04-24 22:09:13,330 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:13,577 [INFO]  Epoch = 78/200, loss = 0.8904, train_acc : 0.6953, eval_acc : 0.8376 = 3553/4242. Best: 0.8277
+2023-04-24 22:09:13,578 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:13,828 [INFO]  Epoch = 79/200, loss = 0.8808, train_acc : 0.7020, eval_acc : 0.8404 = 3565/4242. Best: 0.8376
+2023-04-24 22:09:13,828 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:14,077 [INFO]  Epoch = 80/200, loss = 0.8858, train_acc : 0.7040, eval_acc : 0.8527 = 3617/4242. Best: 0.8404
+2023-04-24 22:09:14,077 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:14,329 [INFO]  Epoch = 81/200, loss = 0.8311, train_acc : 0.7286, eval_acc : 0.8442 = 3581/4242. Best: 0.8527
+2023-04-24 22:09:14,572 [INFO]  Epoch = 82/200, loss = 0.8278, train_acc : 0.7366, eval_acc : 0.8571 = 3636/4242. Best: 0.8527
+2023-04-24 22:09:14,572 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:14,823 [INFO]  Epoch = 83/200, loss = 0.8264, train_acc : 0.7477, eval_acc : 0.8640 = 3665/4242. Best: 0.8571
+2023-04-24 22:09:14,823 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:15,074 [INFO]  Epoch = 84/200, loss = 0.8265, train_acc : 0.7533, eval_acc : 0.8670 = 3678/4242. Best: 0.8640
+2023-04-24 22:09:15,074 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:15,324 [INFO]  Epoch = 85/200, loss = 0.8242, train_acc : 0.7560, eval_acc : 0.8708 = 3694/4242. Best: 0.8670
+2023-04-24 22:09:15,324 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:15,568 [INFO]  Epoch = 86/200, loss = 0.8227, train_acc : 0.7582, eval_acc : 0.8744 = 3709/4242. Best: 0.8708
+2023-04-24 22:09:15,569 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:15,819 [INFO]  Epoch = 87/200, loss = 0.8203, train_acc : 0.7594, eval_acc : 0.8769 = 3720/4242. Best: 0.8744
+2023-04-24 22:09:15,819 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:16,066 [INFO]  Epoch = 88/200, loss = 0.8188, train_acc : 0.7603, eval_acc : 0.8784 = 3726/4242. Best: 0.8769
+2023-04-24 22:09:16,067 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:16,315 [INFO]  Epoch = 89/200, loss = 0.8164, train_acc : 0.7619, eval_acc : 0.8812 = 3738/4242. Best: 0.8784
+2023-04-24 22:09:16,315 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:16,564 [INFO]  Epoch = 90/200, loss = 0.8142, train_acc : 0.7630, eval_acc : 0.8840 = 3750/4242. Best: 0.8812
+2023-04-24 22:09:16,565 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:16,814 [INFO]  Epoch = 91/200, loss = 0.8106, train_acc : 0.7631, eval_acc : 0.8866 = 3761/4242. Best: 0.8840
+2023-04-24 22:09:16,815 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:17,063 [INFO]  Epoch = 92/200, loss = 0.8082, train_acc : 0.7663, eval_acc : 0.8890 = 3771/4242. Best: 0.8866
+2023-04-24 22:09:17,063 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:17,316 [INFO]  Epoch = 93/200, loss = 0.8047, train_acc : 0.7670, eval_acc : 0.8892 = 3772/4242. Best: 0.8890
+2023-04-24 22:09:17,316 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:17,568 [INFO]  Epoch = 94/200, loss = 0.8014, train_acc : 0.7684, eval_acc : 0.8901 = 3776/4242. Best: 0.8892
+2023-04-24 22:09:17,568 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:17,825 [INFO]  Epoch = 95/200, loss = 0.7984, train_acc : 0.7699, eval_acc : 0.8918 = 3783/4242. Best: 0.8901
+2023-04-24 22:09:17,825 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:18,074 [INFO]  Epoch = 96/200, loss = 0.7951, train_acc : 0.7706, eval_acc : 0.8916 = 3782/4242. Best: 0.8918
+2023-04-24 22:09:18,322 [INFO]  Epoch = 97/200, loss = 0.7928, train_acc : 0.7708, eval_acc : 0.8932 = 3789/4242. Best: 0.8918
+2023-04-24 22:09:18,322 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:18,570 [INFO]  Epoch = 98/200, loss = 0.7903, train_acc : 0.7713, eval_acc : 0.8927 = 3787/4242. Best: 0.8932
+2023-04-24 22:09:18,818 [INFO]  Epoch = 99/200, loss = 0.7878, train_acc : 0.7724, eval_acc : 0.8925 = 3786/4242. Best: 0.8932
+2023-04-24 22:09:19,068 [INFO]  Epoch = 100/200, loss = 0.7853, train_acc : 0.7738, eval_acc : 0.8913 = 3781/4242. Best: 0.8932
+2023-04-24 22:09:19,321 [INFO]  Epoch = 101/200, loss = 0.7287, train_acc : 0.7985, eval_acc : 0.8892 = 3772/4242. Best: 0.8932
+2023-04-24 22:09:19,569 [INFO]  Epoch = 102/200, loss = 0.7248, train_acc : 0.8026, eval_acc : 0.8883 = 3768/4242. Best: 0.8932
+2023-04-24 22:09:19,823 [INFO]  Epoch = 103/200, loss = 0.7252, train_acc : 0.8054, eval_acc : 0.8873 = 3764/4242. Best: 0.8932
+2023-04-24 22:09:20,071 [INFO]  Epoch = 104/200, loss = 0.7223, train_acc : 0.8072, eval_acc : 0.8864 = 3760/4242. Best: 0.8932
+2023-04-24 22:09:20,320 [INFO]  Epoch = 105/200, loss = 0.7218, train_acc : 0.8087, eval_acc : 0.8887 = 3770/4242. Best: 0.8932
+2023-04-24 22:09:20,570 [INFO]  Epoch = 106/200, loss = 0.7186, train_acc : 0.8099, eval_acc : 0.8878 = 3766/4242. Best: 0.8932
+2023-04-24 22:09:20,819 [INFO]  Epoch = 107/200, loss = 0.7166, train_acc : 0.8111, eval_acc : 0.8894 = 3773/4242. Best: 0.8932
+2023-04-24 22:09:21,068 [INFO]  Epoch = 108/200, loss = 0.7134, train_acc : 0.8127, eval_acc : 0.8887 = 3770/4242. Best: 0.8932
+2023-04-24 22:09:21,316 [INFO]  Epoch = 109/200, loss = 0.7100, train_acc : 0.8133, eval_acc : 0.8890 = 3771/4242. Best: 0.8932
+2023-04-24 22:09:21,563 [INFO]  Epoch = 110/200, loss = 0.7070, train_acc : 0.8138, eval_acc : 0.8897 = 3774/4242. Best: 0.8932
+2023-04-24 22:09:21,812 [INFO]  Epoch = 111/200, loss = 0.7035, train_acc : 0.8150, eval_acc : 0.8897 = 3774/4242. Best: 0.8932
+2023-04-24 22:09:22,059 [INFO]  Epoch = 112/200, loss = 0.7008, train_acc : 0.8162, eval_acc : 0.8899 = 3775/4242. Best: 0.8932
+2023-04-24 22:09:22,308 [INFO]  Epoch = 113/200, loss = 0.6971, train_acc : 0.8174, eval_acc : 0.8899 = 3775/4242. Best: 0.8932
+2023-04-24 22:09:22,556 [INFO]  Epoch = 114/200, loss = 0.6940, train_acc : 0.8194, eval_acc : 0.8894 = 3773/4242. Best: 0.8932
+2023-04-24 22:09:22,806 [INFO]  Epoch = 115/200, loss = 0.6906, train_acc : 0.8208, eval_acc : 0.8897 = 3774/4242. Best: 0.8932
+2023-04-24 22:09:23,055 [INFO]  Epoch = 116/200, loss = 0.6872, train_acc : 0.8220, eval_acc : 0.8897 = 3774/4242. Best: 0.8932
+2023-04-24 22:09:23,306 [INFO]  Epoch = 117/200, loss = 0.6837, train_acc : 0.8228, eval_acc : 0.8892 = 3772/4242. Best: 0.8932
+2023-04-24 22:09:23,556 [INFO]  Epoch = 118/200, loss = 0.6804, train_acc : 0.8235, eval_acc : 0.8899 = 3775/4242. Best: 0.8932
+2023-04-24 22:09:23,806 [INFO]  Epoch = 119/200, loss = 0.6767, train_acc : 0.8242, eval_acc : 0.8892 = 3772/4242. Best: 0.8932
+2023-04-24 22:09:24,054 [INFO]  Epoch = 120/200, loss = 0.6732, train_acc : 0.8253, eval_acc : 0.8887 = 3770/4242. Best: 0.8932
+2023-04-24 22:09:24,303 [INFO]  Epoch = 121/200, loss = 0.6307, train_acc : 0.8503, eval_acc : 0.8916 = 3782/4242. Best: 0.8932
+2023-04-24 22:09:24,552 [INFO]  Epoch = 122/200, loss = 0.6294, train_acc : 0.8509, eval_acc : 0.8913 = 3781/4242. Best: 0.8932
+2023-04-24 22:09:24,803 [INFO]  Epoch = 123/200, loss = 0.6266, train_acc : 0.8513, eval_acc : 0.8911 = 3780/4242. Best: 0.8932
+2023-04-24 22:09:25,052 [INFO]  Epoch = 124/200, loss = 0.6248, train_acc : 0.8514, eval_acc : 0.8913 = 3781/4242. Best: 0.8932
+2023-04-24 22:09:25,303 [INFO]  Epoch = 125/200, loss = 0.6228, train_acc : 0.8516, eval_acc : 0.8909 = 3779/4242. Best: 0.8932
+2023-04-24 22:09:25,550 [INFO]  Epoch = 126/200, loss = 0.6211, train_acc : 0.8524, eval_acc : 0.8918 = 3783/4242. Best: 0.8932
+2023-04-24 22:09:25,802 [INFO]  Epoch = 127/200, loss = 0.6192, train_acc : 0.8526, eval_acc : 0.8916 = 3782/4242. Best: 0.8932
+2023-04-24 22:09:26,051 [INFO]  Epoch = 128/200, loss = 0.6176, train_acc : 0.8532, eval_acc : 0.8918 = 3783/4242. Best: 0.8932
+2023-04-24 22:09:26,299 [INFO]  Epoch = 129/200, loss = 0.6158, train_acc : 0.8532, eval_acc : 0.8918 = 3783/4242. Best: 0.8932
+2023-04-24 22:09:26,549 [INFO]  Epoch = 130/200, loss = 0.6131, train_acc : 0.8535, eval_acc : 0.8925 = 3786/4242. Best: 0.8932
+2023-04-24 22:09:26,799 [INFO]  Epoch = 131/200, loss = 0.6105, train_acc : 0.8542, eval_acc : 0.8920 = 3784/4242. Best: 0.8932
+2023-04-24 22:09:27,047 [INFO]  Epoch = 132/200, loss = 0.6072, train_acc : 0.8550, eval_acc : 0.8920 = 3784/4242. Best: 0.8932
+2023-04-24 22:09:27,297 [INFO]  Epoch = 133/200, loss = 0.6039, train_acc : 0.8557, eval_acc : 0.8923 = 3785/4242. Best: 0.8932
+2023-04-24 22:09:27,548 [INFO]  Epoch = 134/200, loss = 0.6006, train_acc : 0.8566, eval_acc : 0.8920 = 3784/4242. Best: 0.8932
+2023-04-24 22:09:27,794 [INFO]  Epoch = 135/200, loss = 0.5971, train_acc : 0.8575, eval_acc : 0.8927 = 3787/4242. Best: 0.8932
+2023-04-24 22:09:28,041 [INFO]  Epoch = 136/200, loss = 0.5933, train_acc : 0.8591, eval_acc : 0.8925 = 3786/4242. Best: 0.8932
+2023-04-24 22:09:28,290 [INFO]  Epoch = 137/200, loss = 0.5901, train_acc : 0.8601, eval_acc : 0.8927 = 3787/4242. Best: 0.8932
+2023-04-24 22:09:28,550 [INFO]  Epoch = 138/200, loss = 0.5867, train_acc : 0.8607, eval_acc : 0.8930 = 3788/4242. Best: 0.8932
+2023-04-24 22:09:28,806 [INFO]  Epoch = 139/200, loss = 0.5832, train_acc : 0.8610, eval_acc : 0.8934 = 3790/4242. Best: 0.8932
+2023-04-24 22:09:28,806 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:29,056 [INFO]  Epoch = 140/200, loss = 0.5797, train_acc : 0.8615, eval_acc : 0.8932 = 3789/4242. Best: 0.8934
+2023-04-24 22:09:29,305 [INFO]  Epoch = 141/200, loss = 0.5512, train_acc : 0.8796, eval_acc : 0.8967 = 3804/4242. Best: 0.8934
+2023-04-24 22:09:29,305 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:29,554 [INFO]  Epoch = 142/200, loss = 0.5485, train_acc : 0.8797, eval_acc : 0.8965 = 3803/4242. Best: 0.8967
+2023-04-24 22:09:29,802 [INFO]  Epoch = 143/200, loss = 0.5457, train_acc : 0.8795, eval_acc : 0.8975 = 3807/4242. Best: 0.8967
+2023-04-24 22:09:29,803 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:30,062 [INFO]  Epoch = 144/200, loss = 0.5437, train_acc : 0.8799, eval_acc : 0.8977 = 3808/4242. Best: 0.8975
+2023-04-24 22:09:30,062 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:30,308 [INFO]  Epoch = 145/200, loss = 0.5417, train_acc : 0.8804, eval_acc : 0.8979 = 3809/4242. Best: 0.8977
+2023-04-24 22:09:30,309 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:30,555 [INFO]  Epoch = 146/200, loss = 0.5397, train_acc : 0.8814, eval_acc : 0.8982 = 3810/4242. Best: 0.8979
+2023-04-24 22:09:30,556 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:30,802 [INFO]  Epoch = 147/200, loss = 0.5378, train_acc : 0.8816, eval_acc : 0.8984 = 3811/4242. Best: 0.8982
+2023-04-24 22:09:30,802 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:31,052 [INFO]  Epoch = 148/200, loss = 0.5357, train_acc : 0.8819, eval_acc : 0.8982 = 3810/4242. Best: 0.8984
+2023-04-24 22:09:31,300 [INFO]  Epoch = 149/200, loss = 0.5338, train_acc : 0.8824, eval_acc : 0.8984 = 3811/4242. Best: 0.8984
+2023-04-24 22:09:31,300 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:31,548 [INFO]  Epoch = 150/200, loss = 0.5319, train_acc : 0.8830, eval_acc : 0.8984 = 3811/4242. Best: 0.8984
+2023-04-24 22:09:31,548 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:31,798 [INFO]  Epoch = 151/200, loss = 0.5298, train_acc : 0.8836, eval_acc : 0.8984 = 3811/4242. Best: 0.8984
+2023-04-24 22:09:31,798 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:32,045 [INFO]  Epoch = 152/200, loss = 0.5282, train_acc : 0.8840, eval_acc : 0.8996 = 3816/4242. Best: 0.8984
+2023-04-24 22:09:32,045 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:32,295 [INFO]  Epoch = 153/200, loss = 0.5265, train_acc : 0.8853, eval_acc : 0.9003 = 3819/4242. Best: 0.8996
+2023-04-24 22:09:32,295 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:32,543 [INFO]  Epoch = 154/200, loss = 0.5243, train_acc : 0.8857, eval_acc : 0.9005 = 3820/4242. Best: 0.9003
+2023-04-24 22:09:32,543 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:32,793 [INFO]  Epoch = 155/200, loss = 0.5225, train_acc : 0.8862, eval_acc : 0.9008 = 3821/4242. Best: 0.9005
+2023-04-24 22:09:32,794 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:33,043 [INFO]  Epoch = 156/200, loss = 0.5210, train_acc : 0.8866, eval_acc : 0.9008 = 3821/4242. Best: 0.9008
+2023-04-24 22:09:33,043 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:33,295 [INFO]  Epoch = 157/200, loss = 0.5190, train_acc : 0.8880, eval_acc : 0.9008 = 3821/4242. Best: 0.9008
+2023-04-24 22:09:33,296 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:33,544 [INFO]  Epoch = 158/200, loss = 0.5172, train_acc : 0.8885, eval_acc : 0.9008 = 3821/4242. Best: 0.9008
+2023-04-24 22:09:33,544 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:33,796 [INFO]  Epoch = 159/200, loss = 0.5154, train_acc : 0.8887, eval_acc : 0.9010 = 3822/4242. Best: 0.9008
+2023-04-24 22:09:33,796 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:34,047 [INFO]  Epoch = 160/200, loss = 0.5135, train_acc : 0.8889, eval_acc : 0.9010 = 3822/4242. Best: 0.9010
+2023-04-24 22:09:34,047 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:34,299 [INFO]  Epoch = 161/200, loss = 0.4983, train_acc : 0.8992, eval_acc : 0.9017 = 3825/4242. Best: 0.9010
+2023-04-24 22:09:34,299 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:34,551 [INFO]  Epoch = 162/200, loss = 0.4950, train_acc : 0.8990, eval_acc : 0.9033 = 3832/4242. Best: 0.9017
+2023-04-24 22:09:34,551 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:34,810 [INFO]  Epoch = 163/200, loss = 0.4937, train_acc : 0.8994, eval_acc : 0.9031 = 3831/4242. Best: 0.9033
+2023-04-24 22:09:35,065 [INFO]  Epoch = 164/200, loss = 0.4922, train_acc : 0.8994, eval_acc : 0.9036 = 3833/4242. Best: 0.9033
+2023-04-24 22:09:35,065 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:35,320 [INFO]  Epoch = 165/200, loss = 0.4911, train_acc : 0.8995, eval_acc : 0.9033 = 3832/4242. Best: 0.9036
+2023-04-24 22:09:35,571 [INFO]  Epoch = 166/200, loss = 0.4896, train_acc : 0.8997, eval_acc : 0.9036 = 3833/4242. Best: 0.9036
+2023-04-24 22:09:35,571 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:35,824 [INFO]  Epoch = 167/200, loss = 0.4888, train_acc : 0.8999, eval_acc : 0.9036 = 3833/4242. Best: 0.9036
+2023-04-24 22:09:35,824 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:36,073 [INFO]  Epoch = 168/200, loss = 0.4876, train_acc : 0.9000, eval_acc : 0.9033 = 3832/4242. Best: 0.9036
+2023-04-24 22:09:36,320 [INFO]  Epoch = 169/200, loss = 0.4863, train_acc : 0.9009, eval_acc : 0.9036 = 3833/4242. Best: 0.9036
+2023-04-24 22:09:36,320 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:36,573 [INFO]  Epoch = 170/200, loss = 0.4851, train_acc : 0.9011, eval_acc : 0.9038 = 3834/4242. Best: 0.9036
+2023-04-24 22:09:36,573 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:36,821 [INFO]  Epoch = 171/200, loss = 0.4840, train_acc : 0.9013, eval_acc : 0.9038 = 3834/4242. Best: 0.9038
+2023-04-24 22:09:36,821 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:37,072 [INFO]  Epoch = 172/200, loss = 0.4829, train_acc : 0.9016, eval_acc : 0.9041 = 3835/4242. Best: 0.9038
+2023-04-24 22:09:37,072 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:37,322 [INFO]  Epoch = 173/200, loss = 0.4816, train_acc : 0.9016, eval_acc : 0.9041 = 3835/4242. Best: 0.9041
+2023-04-24 22:09:37,322 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:37,570 [INFO]  Epoch = 174/200, loss = 0.4806, train_acc : 0.9020, eval_acc : 0.9041 = 3835/4242. Best: 0.9041
+2023-04-24 22:09:37,570 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:37,820 [INFO]  Epoch = 175/200, loss = 0.4796, train_acc : 0.9020, eval_acc : 0.9041 = 3835/4242. Best: 0.9041
+2023-04-24 22:09:37,820 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:38,070 [INFO]  Epoch = 176/200, loss = 0.4781, train_acc : 0.9024, eval_acc : 0.9041 = 3835/4242. Best: 0.9041
+2023-04-24 22:09:38,070 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:38,319 [INFO]  Epoch = 177/200, loss = 0.4773, train_acc : 0.9025, eval_acc : 0.9043 = 3836/4242. Best: 0.9041
+2023-04-24 22:09:38,320 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:38,565 [INFO]  Epoch = 178/200, loss = 0.4759, train_acc : 0.9030, eval_acc : 0.9045 = 3837/4242. Best: 0.9043
+2023-04-24 22:09:38,566 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:38,818 [INFO]  Epoch = 179/200, loss = 0.4748, train_acc : 0.9033, eval_acc : 0.9045 = 3837/4242. Best: 0.9045
+2023-04-24 22:09:38,818 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:39,070 [INFO]  Epoch = 180/200, loss = 0.4736, train_acc : 0.9033, eval_acc : 0.9048 = 3838/4242. Best: 0.9045
+2023-04-24 22:09:39,071 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:39,322 [INFO]  Epoch = 181/200, loss = 0.4651, train_acc : 0.9094, eval_acc : 0.9059 = 3843/4242. Best: 0.9048
+2023-04-24 22:09:39,323 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:39,573 [INFO]  Epoch = 182/200, loss = 0.4623, train_acc : 0.9101, eval_acc : 0.9066 = 3846/4242. Best: 0.9059
+2023-04-24 22:09:39,573 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:39,822 [INFO]  Epoch = 183/200, loss = 0.4610, train_acc : 0.9105, eval_acc : 0.9066 = 3846/4242. Best: 0.9066
+2023-04-24 22:09:39,822 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:40,073 [INFO]  Epoch = 184/200, loss = 0.4593, train_acc : 0.9107, eval_acc : 0.9074 = 3849/4242. Best: 0.9066
+2023-04-24 22:09:40,073 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:40,323 [INFO]  Epoch = 185/200, loss = 0.4583, train_acc : 0.9110, eval_acc : 0.9081 = 3852/4242. Best: 0.9074
+2023-04-24 22:09:40,323 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:40,572 [INFO]  Epoch = 186/200, loss = 0.4575, train_acc : 0.9112, eval_acc : 0.9085 = 3854/4242. Best: 0.9081
+2023-04-24 22:09:40,572 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:40,824 [INFO]  Epoch = 187/200, loss = 0.4569, train_acc : 0.9111, eval_acc : 0.9083 = 3853/4242. Best: 0.9085
+2023-04-24 22:09:41,073 [INFO]  Epoch = 188/200, loss = 0.4563, train_acc : 0.9114, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:41,073 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:41,324 [INFO]  Epoch = 189/200, loss = 0.4555, train_acc : 0.9119, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:41,324 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:41,574 [INFO]  Epoch = 190/200, loss = 0.4546, train_acc : 0.9116, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:41,574 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:41,825 [INFO]  Epoch = 191/200, loss = 0.4539, train_acc : 0.9123, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:41,825 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:42,074 [INFO]  Epoch = 192/200, loss = 0.4532, train_acc : 0.9123, eval_acc : 0.9083 = 3853/4242. Best: 0.9085
+2023-04-24 22:09:42,323 [INFO]  Epoch = 193/200, loss = 0.4523, train_acc : 0.9122, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:42,323 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:42,573 [INFO]  Epoch = 194/200, loss = 0.4514, train_acc : 0.9124, eval_acc : 0.9083 = 3853/4242. Best: 0.9085
+2023-04-24 22:09:42,822 [INFO]  Epoch = 195/200, loss = 0.4509, train_acc : 0.9128, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:42,822 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:43,071 [INFO]  Epoch = 196/200, loss = 0.4501, train_acc : 0.9128, eval_acc : 0.9083 = 3853/4242. Best: 0.9085
+2023-04-24 22:09:43,323 [INFO]  Epoch = 197/200, loss = 0.4492, train_acc : 0.9129, eval_acc : 0.9085 = 3854/4242. Best: 0.9085
+2023-04-24 22:09:43,323 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:43,574 [INFO]  Epoch = 198/200, loss = 0.4485, train_acc : 0.9129, eval_acc : 0.9083 = 3853/4242. Best: 0.9085
+2023-04-24 22:09:43,825 [INFO]  Epoch = 199/200, loss = 0.4476, train_acc : 0.9133, eval_acc : 0.9095 = 3858/4242. Best: 0.9085
+2023-04-24 22:09:43,825 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:44,076 [INFO]  Epoch = 200/200, loss = 0.4470, train_acc : 0.9133, eval_acc : 0.9095 = 3858/4242. Best: 0.9095
+2023-04-24 22:09:44,076 [INFO] Saving at checkpoint/best_model_nfeatures80.pth
+2023-04-24 22:09:44,077 [INFO] Saving at checkpoint/model_nfeatures80_ckpnt_200.pth

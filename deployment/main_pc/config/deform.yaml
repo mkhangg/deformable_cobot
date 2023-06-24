@@ -1,0 +1,23 @@
+#Directory
+dataset: 'dobject'
+root: '/mnt/data/workspace/open3d/code/resample_dataset'
+cache: 'cache'
+log_dir: "log"
+checkpoint: "checkpoint"
+
+#Variables
+epochs: 200
+is_cached: True
+use_gpu: True
+batch_size: 256
+num_categories: 8
+num_features: 80
+npoints: 100 #Numper of sampling
+is_sampled: True #Furthest Point Sample
+use_normal_vector: False
+optimizer: 'adam'
+learning_rate: 0.001
+decay_rate: 0.0001
+verbose: False
+num_votes: 3
+

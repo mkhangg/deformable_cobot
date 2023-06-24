@@ -1,0 +1,13 @@
+class-name      --> what is it?             --> raw point cloud         --> downsampled point cloud
+
+medium-can 	    --> dr. pepper can          --> done                    --> done
+food-can	    --> sweet corn can          --> done                    --> done
+
+small-cup 	    --> brown paper cup         --> done                    --> done
+medium-cup 	    --> red plastic cup	--> done                    --> done
+large-cup 	    --> mcd cup		--> done                    --> done
+
+tiny-ball	    --> tiny foam basketball    --> done                    --> done
+small-ball 	    --> tennis ball             --> done                    --> done
+medium-ball	    --> orange foam ball        --> done                    --> done
+

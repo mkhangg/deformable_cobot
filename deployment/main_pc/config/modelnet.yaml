@@ -1,0 +1,23 @@
+#Directory
+dataset: 'modelnet'
+root: '/mnt/data/dataset/modelnet40_normal_resampled'
+cache: 'cache'
+log_dir: "log"
+checkpoint: "checkpoint"
+
+#Variables
+epochs: 500
+is_cached: True
+use_gpu: True
+batch_size: 256
+num_categories: 40
+num_features: 64
+npoints: 100 #Numper of sampling
+is_sampled: True #Furthest Point Sample
+use_normal_vector: True
+optimizer: 'adam'
+learning_rate: 0.001
+decay_rate: 0.0001
+verbose: False
+num_votes: 3
+
