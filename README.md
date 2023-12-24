@@ -85,5 +85,12 @@ We first mount the Intel RealSense D435i RGB-D camera on the display of the Baxt
 ## Citing
 
 ```
-
+@inproceedings{nguyen2023online,
+  title={Online 3D Deformable Object Classification for Mobile Cobot Manipulation},
+  author={Nguyen, Khang and Dang, Tuan and Huber, Manfred},
+  booktitle={ISR Europe 2023; 56th International Symposium on Robotics},
+  pages={139--146},
+  year={2023},
+  organization={VDE}
+}
 ```
